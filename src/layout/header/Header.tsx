@@ -5,13 +5,10 @@ import {Main} from "../sections/main/Main";
 
 export const Header = () => {
     return (
-        <>
-            <StyledHeader>
-                <Logo/>
-                <Menu/>
-            </StyledHeader>
-            <Main/>
-        </>
+        <StyledHeader>
+            <Logo/>
+            <Menu/>
+        </StyledHeader>
     );
 };
 
