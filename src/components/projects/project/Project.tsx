@@ -30,7 +30,7 @@ const Image = styled.img`
   object-fit: cover;
 `
 
-const Link = styled.link`
+const Link = styled.a`
 
 `
 
