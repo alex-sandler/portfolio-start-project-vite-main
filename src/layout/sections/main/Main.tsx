@@ -1,16 +1,16 @@
 import styled from "styled-components";
 import photo from "../../../assets/images/photo.webp"
-import {FLexWrapper} from "../../../components/FLexWrapper";
+import {FlexWrapper} from "../../../components/FlexWrapper";
 
 export const Main = () => {
     return(
         <StyledMain>
-            <FLexWrapper justify={"space-around"} align={"center"}>
+            <FlexWrapper justify={"space-around"} align={"center"}>
                 <Name>I'm Aleksey Sandler</Name>
                 <MainTitle>Front-End Developer</MainTitle>
                 <p>Passionate front-end developer with a flair for crafting engaging user interfaces that provide users with an intuitive and efficient experience. Committed to writing clean, scalable code and staying abreast of the latest technologies in web development</p>
             <Photo src={photo} alt="#"/>
-            </FLexWrapper>
+            </FlexWrapper>
         </StyledMain>
     );
 };

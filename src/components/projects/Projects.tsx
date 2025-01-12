@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {SectionTitle} from "../SectionTitle";
 import {Menu} from "../menu/Menu";
-import {FLexWrapper} from "../FLexWrapper";
+import {FlexWrapper} from "../FlexWrapper";
 import {Project} from "./project/Project";
 import socialImg from "/src/assets/images/projects/social-network.webp"
 import timerImg from "/src/assets/images/projects/timer.webp"
@@ -13,7 +13,7 @@ export const Projects = () => {
         <StyledProjects>
             <SectionTitle>My Projects</SectionTitle>
             <Menu menuItems={projectsItems}/>
-            <FLexWrapper justify="space-around">
+            <FlexWrapper justify="space-around">
                 <Project title="Social Network"
                          text="lorem"
                          src={socialImg}/>
@@ -21,7 +21,7 @@ export const Projects = () => {
                 <Project title="Timer"
                          text="lorem"
                          src={timerImg}/>
-            </FLexWrapper>
+            </FlexWrapper>
         </StyledProjects>
     );
 };

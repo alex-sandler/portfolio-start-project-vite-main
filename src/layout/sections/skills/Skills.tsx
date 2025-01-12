@@ -1,14 +1,13 @@
 import styled from "styled-components";
-import {Icon} from "../../../components/icon/Icon";
 import {SectionTitle} from "../../../components/SectionTitle";
 import {Skill} from "./Skill";
-import {FLexWrapper} from "../../../components/FLexWrapper";
+import {FlexWrapper} from "../../../components/FlexWrapper";
 
 export const Skills = () => {
     return (
         <StyledSkills>
             <SectionTitle>MY SKILLS</SectionTitle>
-            <FLexWrapper justify={"space-between"} wrap={"wrap"}>
+            <FlexWrapper justify={"space-between"} wrap={"wrap"}>
                 <Skill title={"React"} iconId={"react"}/>
                 <Skill title={"Redux"} iconId={"redux"}/>
                 <Skill title={"JavaScript"} iconId={"js"}/>
@@ -27,7 +26,7 @@ export const Skills = () => {
                 <Skill title={"Git"} iconId={"git"}/>
                 <Skill title={"Github"} iconId={"github"}/>
                 <Skill title={"Prettier"} iconId={"prettier"}/>
-            </FLexWrapper>
+            </FlexWrapper>
         </StyledSkills>
     );
 };

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-type FLexWrapperType = {
+type FlexWrapperType = {
     direction?: string
     justify?: string
     align?: string
@@ -8,7 +8,7 @@ type FLexWrapperType = {
 }
 
 
-export const FLexWrapper = styled.div<FLexWrapperType>`
+export const FlexWrapper = styled.div<FlexWrapperType>`
   display: flex;
   flex-direction: ${({direction}) => direction || "row"};
   justify-content: ${({justify}) => justify || "flex-start"};
